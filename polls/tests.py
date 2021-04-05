@@ -3,7 +3,7 @@ from django.test import TestCase
 from django.urls import reverse
 
 from django.utils import timezone
-import Question
+from .models import Choice, Question
 
 # Create your tests here.
 def create_question(question_text, days):
